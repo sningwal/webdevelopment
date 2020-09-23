@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<title>inline css and internal css practice-LAB2</title>
+	<style type="text/css">
+	body{
+		background-color:#ADD8E6;
+	}
+
+	h1{
+		background-color:#FFFFFF;
+		text-indent:3em;
+		width:80%;
+		margin-left:40px;
+	}
+   p{
+	background-color:#ae3ec2;
+	text-indent:3em;
+	font-size:20px;
+	width:80%;
+	margin-left:40px;
+   }
+	dl dt{
+		font-weight:bold;
+		font-size:25px;
+		margin-left:40px;
+	  }
+	  dl dd{
+	  	font-size:20px;
+	  	margin-left:40px;
+	  }
+  dl a{
+  	margin-left:50px;
+  }
+	  img{
+	  	margin-left:40px;
+	  }
+	</style>
+</head>
+<body>
+	<!--paragraph override internal css using inline css/-->
+	<p style="background-color:#0000FF">Q3.Design a webpage and change the background color of heading and paragraph. Note: Your page should have 3 paragraphs and at least 2 headings, change background color to a hexadecimal code and text indent to 3em, override a paragraph CSS rules and change the background color of that paragraph to blue. Write the three aspects of CSS in a descriptive list. Each list element must contain a web page which explains the uses of "Selector", "Property name " and "Property Value".</p>
+      <h1>CSS</h1>
+      <!--	paragraph override internal css using inline css-->
+	<p style="background-color:#0000FF">CSS stands for Cascading Style Sheets.CSS describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work. It can control the layout of multiple web pages all at once. External stylesheets are stored in CSS files.</p>
+  <h1>There are three parts of style rules:</h1>
+  <img src="css.png" style="width:400px;height:200px;">
+ <!--paragraph without inline css,so it will use internal css-->
+  <p>From above image</p>
+  <h1>Three aspects of css using descriptive list</h1>
+	<dl>
+		<dt>Selector</dt>
+		<dd>Element selector "p"</dd>
+		 <a href="selector.html" target="_blank">More Details</a>
+		<dt>Property Name</dt>
+		<dd>color</dd>
+		<a href="property.html" target="_blank">More Details</a>
+		<dt>Property Value</dt>
+		<dd>Property Value is "red"</dd>
+		<a href="values.html" target="_blank">More Details</a>
+	</dl>
+	<footer>
+			<em><strong>&copy;2020||1906126&trade;</strong></em>
+		</footer>
+</body>
+</html>
