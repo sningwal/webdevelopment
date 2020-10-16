@@ -4,5 +4,10 @@ text-transform: uppercase;
 background-color:green;
 }
 .btn{
-margin:15% 45% ;
+ margin:15% 45% ;
+}
+#head{
+  text-decoration:underline;
+  color:blue;
+  text-transform:uppercase;
 }
